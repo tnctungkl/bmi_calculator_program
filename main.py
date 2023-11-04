@@ -1,10 +1,11 @@
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
-import sys
-import re
 from tkcalendar import DateEntry
 from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
+import sys
+import re
+
 
 personal_info = {
     'Name': '',
